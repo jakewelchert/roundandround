@@ -10,12 +10,12 @@
 return array(
   'localhost' => array(
     'devMode' => true,
-    'siteUrl' => 'http://localhost:8888/',
+    'siteUrl' => 'http://localhost:8888/roundandround/html/',
     'environmentVariables' => array(
-      'basePath' => '/users/eugene/Sites/craft-project/html/',
-      'baseUrl'  => 'http://localhost:8888/',
+      'basePath' => 'file:///Applications/MAMP/htdocs/roundandround/html/index.php',
+      'baseUrl'  => 'http://localhost:8888/roundandround/html/',
     ),
-    'testToEmailAddress' => 'dev@email.com',
+    'testToEmailAddress' => 'jakewelchert@gmail.com',
   ),
 
   // Use IP address of your droplet below
